@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Nunito Medium";
+  src: url("../fonts/Nunito-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: "Nunito Regular";
+  src: url("../fonts/Nunito-Regular.ttf");
+}
+
+body { margin: 0 auto }
+
+.App {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .container_about_sphynx {
+    border: 1px solid #daaeae;
+    border-radius: 10px;
+    img {
+      width: 500px;
+    }
+    .title {
+      font-family: 'Nunito Medium', sans-serif;
+      color: #bd8e8e;
+      text-align: center;
+    }
+    .container_facts {
+      .fact {
+        font-family: 'Nunito Regular', sans-serif;
+        font-size: 18px;
+        color: #9d0f4f;
+      }
+    }
+  }
+}
